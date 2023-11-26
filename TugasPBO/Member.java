@@ -1,5 +1,15 @@
 public abstract class Member {
     protected Integer poin = 0;
+    String namaPelanggan;
+    String nomorFaktur;
+    String namaBarang;
+    Long hargaBarang;
+    Long jumlahBarang;
+    Long totalBayar;
+    
+
+
+
     
     public Integer getPoin(){
         return poin;
