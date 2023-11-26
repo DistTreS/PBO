@@ -7,10 +7,6 @@ public abstract class Member {
     Long jumlahBarang;
     Long totalBayar;
     
-
-
-
-    
     public Integer getPoin(){
         return poin;
     }
