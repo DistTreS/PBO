@@ -1,7 +1,7 @@
 public abstract class Member {
     protected Integer poin = 0;
     String namaPelanggan;
-    String nomorFaktur;
+    String kodeBarang;
     String namaBarang;
     Long hargaBarang;
     Long jumlahBeli;

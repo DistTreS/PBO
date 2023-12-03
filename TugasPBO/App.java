@@ -21,6 +21,7 @@ public class App {
         
 
         try {
+            System.out.println("");
             Member tes1 = new Member(){};
             System.out.print("Masukkan Nama Pelanggan\t: ");
             tes1.namaPelanggan = scanner.nextLine();
@@ -32,7 +33,7 @@ public class App {
             tes1.alamat = scanner.nextLine();
 
             System.out.print("Masukkan No. Faktur\t: ");
-            tes1.nomorFaktur = scanner.nextLine();
+            tes1.kodeBarang = scanner.nextLine();
 
             System.out.print("Masukkan Nama Barang\t: ");
             tes1.namaBarang = scanner.nextLine();
@@ -60,7 +61,7 @@ public class App {
             System.out.println("++++++++++++++++++++++++");
             System.out.println("DATA PEMBELIAN BARANG");
             System.out.println("------------------------");
-            System.out.println("No. Faktur\t:" + tes1.nomorFaktur);
+            System.out.println("Kode Barang\t:" + tes1.kodeBarang);
             System.out.println("Nama Barang\t:" + tes1.namaBarang);
             System.out.println("Harga Barang\t:" + tes1.hargaBarang);
             System.out.println("Jumlah Beli\t:" + tes1.jumlahBeli);
