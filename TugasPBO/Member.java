@@ -4,8 +4,12 @@ public abstract class Member {
     String nomorFaktur;
     String namaBarang;
     Long hargaBarang;
-    Long jumlahBarang;
+    Long jumlahBeli;
     Long totalBayar;
+    String noHp;
+    String alamat;
+    String namaKasir="Fadli";
+
     
     public Integer getPoin(){
         return poin;
