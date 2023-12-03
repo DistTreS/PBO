@@ -32,7 +32,7 @@ public class App {
             System.out.print("Masukkan Alamat\t\t: ");
             tes1.alamat = scanner.nextLine();
 
-            System.out.print("Masukkan No. Faktur\t: ");
+            System.out.print("Masukkan Kode Barang\t: ");
             tes1.kodeBarang = scanner.nextLine();
 
             System.out.print("Masukkan Nama Barang\t: ");
