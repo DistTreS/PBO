@@ -3,6 +3,8 @@ public class MemberReguler extends Member implements CanGetDiskon{
     public MemberReguler(Integer poin){
         this.poin=poin;
     }
+
+    public MemberReguler(){}
     
 /*--------------------------------------------------------------------------------------------------------- */
     public Integer hitungTotalBayar(Integer jumlahBelanja){
